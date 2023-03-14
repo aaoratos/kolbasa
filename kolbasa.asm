@@ -15,7 +15,10 @@ POINT ends
 .data?
     cur POINT <>
 .code
+
 start:
+    ; MASM can't assemble the RDRAND instruction
+    ; so we have use machine code directly
     db 0Fh, 0C7h, 0F0h
     xor edx, edx
     mov ecx, 1Eh
