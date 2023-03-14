@@ -1,5 +1,5 @@
 # kolbasa
- An Assembly (MASM) remake of a small prank program I made in the middle school🥴
+ An Assembly (MASM) remake of a small prank program I made in the high school🥴
 
 ---
 It simply moves the mouse cursor to a random distance (but up to 30 pixels) and in a random direction every 1/3 of a second. Endlessly.
